@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Star, Users, CheckCircle, BarChart3, MessageSquare, Smartphone, Cog, Database, ArrowRight } from 'lucide-react';
+import { Star, Users, CheckCircle, BarChart3, MessageSquare, Smartphone, Cog, Database, ArrowRight, Shield } from 'lucide-react';
 import { Link } from 'wouter';
 import SEOHead from '@/components/seo-head';
 
