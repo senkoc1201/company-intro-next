@@ -12,7 +12,7 @@ export default function About() {
         description="Learn about TechCorp Solutions' mission, vision, and team. Discover our decade of experience in digital transformation and business technology solutions."
         path="/about"
       />
-      
+
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-slate-50 to-slate-100 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -37,13 +37,13 @@ export default function About() {
                 className="rounded-2xl shadow-lg w-full"
               />
             </div>
-            
+
             <div>
               <h2 className="text-3xl font-bold text-secondary mb-6">Our Mission & Vision</h2>
               <p className="text-lg text-slate-600 mb-8">
                 We believe technology should empower businesses to achieve their full potential. Our mission is to deliver innovative, scalable solutions that drive real business value and create lasting partnerships with our clients.
               </p>
-              
+
               {/* Feature list */}
               <div className="space-y-6">
                 <div className="flex items-start">
@@ -55,7 +55,7 @@ export default function About() {
                     <p className="text-slate-600">Certified professionals with deep industry expertise</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start">
                   <div className="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center mr-4">
                     <CheckCircle className="w-5 h-5 text-primary" />
@@ -65,7 +65,7 @@ export default function About() {
                     <p className="text-slate-600">Track record of successful implementations and satisfied clients</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start">
                   <div className="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center mr-4">
                     <CheckCircle className="w-5 h-5 text-primary" />
@@ -90,7 +90,7 @@ export default function About() {
               These principles guide everything we do and shape how we deliver value to our clients.
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="text-center hover:shadow-lg transition-shadow">
               <CardContent className="p-8">
@@ -103,7 +103,7 @@ export default function About() {
                 </p>
               </CardContent>
             </Card>
-            
+
             <Card className="text-center hover:shadow-lg transition-shadow">
               <CardContent className="p-8">
                 <div className="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center mx-auto mb-6">
@@ -115,7 +115,7 @@ export default function About() {
                 </p>
               </CardContent>
             </Card>
-            
+
             <Card className="text-center hover:shadow-lg transition-shadow">
               <CardContent className="p-8">
                 <div className="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center mx-auto mb-6">
@@ -140,26 +140,26 @@ export default function About() {
               These numbers reflect our commitment to delivering exceptional results for our clients.
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="text-4xl font-bold text-primary mb-2">500+</div>
               <div className="text-lg font-semibold text-secondary mb-2">Happy Clients</div>
               <div className="text-slate-600">Businesses transformed with our solutions</div>
             </div>
-            
+
             <div className="text-center">
               <div className="text-4xl font-bold text-primary mb-2">1000+</div>
               <div className="text-lg font-semibold text-secondary mb-2">Projects Completed</div>
               <div className="text-slate-600">Successful implementations delivered</div>
             </div>
-            
+
             <div className="text-center">
               <div className="text-4xl font-bold text-primary mb-2">10+</div>
               <div className="text-lg font-semibold text-secondary mb-2">Years Experience</div>
               <div className="text-slate-600">Decades of industry expertise</div>
             </div>
-            
+
             <div className="text-center">
               <div className="text-4xl font-bold text-primary mb-2">99%</div>
               <div className="text-lg font-semibold text-secondary mb-2">Client Satisfaction</div>
@@ -178,11 +178,11 @@ export default function About() {
               Our experienced leadership team brings together decades of industry expertise and vision.
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="text-center hover:shadow-lg transition-shadow">
               <CardContent className="p-8">
-                <div className="w-24 h-24 bg-slate-200 rounded-full mx-auto mb-6"></div>
+                <img src="/assets/images/sarah-johnson.jpg" alt="Sarah Johnson" className="w-24 h-24 rounded-full mx-auto mb-6 object-cover" />
                 <h3 className="text-xl font-bold text-secondary mb-2">Sarah Johnson</h3>
                 <p className="text-primary font-medium mb-4">Chief Executive Officer</p>
                 <p className="text-slate-600">
@@ -190,10 +190,10 @@ export default function About() {
                 </p>
               </CardContent>
             </Card>
-            
+
             <Card className="text-center hover:shadow-lg transition-shadow">
               <CardContent className="p-8">
-                <div className="w-24 h-24 bg-slate-200 rounded-full mx-auto mb-6"></div>
+                <img src="/assets/images/michael-chen.jpg" alt="Michael Chen" className="w-24 h-24 rounded-full mx-auto mb-6 object-cover" />
                 <h3 className="text-xl font-bold text-secondary mb-2">Michael Chen</h3>
                 <p className="text-primary font-medium mb-4">Chief Technology Officer</p>
                 <p className="text-slate-600">
@@ -201,10 +201,10 @@ export default function About() {
                 </p>
               </CardContent>
             </Card>
-            
+
             <Card className="text-center hover:shadow-lg transition-shadow">
               <CardContent className="p-8">
-                <div className="w-24 h-24 bg-slate-200 rounded-full mx-auto mb-6"></div>
+                <img src="/assets/images/emily-rodriguez.jpg" alt="Emily Rodriguez" className="w-24 h-24 rounded-full mx-auto mb-6 object-cover" />
                 <h3 className="text-xl font-bold text-secondary mb-2">Emily Rodriguez</h3>
                 <p className="text-primary font-medium mb-4">Head of Operations</p>
                 <p className="text-slate-600">

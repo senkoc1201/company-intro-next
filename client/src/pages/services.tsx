@@ -250,7 +250,7 @@ export default function Services() {
             <Button asChild size="lg" variant="secondary" className="bg-white text-primary hover:bg-gray-100">
               <Link href="/contact">Start Your Project</Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary">
+            <Button asChild size="lg" variant="secondary" className="bg-white text-primary hover:bg-gray-100">
               <Link href="/products">View Our Products</Link>
             </Button>
           </div>
